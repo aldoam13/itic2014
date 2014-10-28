@@ -1,0 +1,7 @@
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\bin\Debug\iati2014.exe
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\bin\Debug\iati2014.pdb
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.Form1.resources
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.Properties.Resources.resources
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.csproj.GenerateResource.Cache
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.exe
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.pdb
