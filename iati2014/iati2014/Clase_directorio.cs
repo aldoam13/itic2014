@@ -12,20 +12,22 @@ namespace iati2014
     {
         public string ruta { get; set; }
 
-        private string ruta2 = @"C:\directorios\miarchivo.txt";
+       // private string ruta2 = @"C:\directorios\miarchivo.txt";
 
-        public bool creadirectorio(string texto)
+
+        //RECIBE TRES PARAMETROS PARA GUARDAR
+        public bool creadirectorio(string nombre, string materia, string nivel)
         {
-            if (!File.Exists(ruta2))
+            if (!File.Exists(ruta))
             {
-                StreamWriter instancia = File.CreateText(ruta2);
+                StreamWriter instancia = File.CreateText(ruta);
 
                 instancia.Close();
             }
 
-            string documento = "Palabra: " + texto;
+            string documento = "NOMBRE: " + nombre+" - MATERIA: "+ materia + " - NIVEL: "+nivel;
 
-            StreamWriter guardar = new StreamWriter(ruta2, true);
+            StreamWriter guardar = new StreamWriter(ruta, true);
 
             guardar.Write(documento);
 

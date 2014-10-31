@@ -18,9 +18,16 @@ namespace iati2014
 
         private void cmd_creadirectorio_Click(object sender, EventArgs e)
         {
+          
+            saveFileDialog1.ShowDialog();
+
+            string ruta2 = saveFileDialog1.FileName;
+
             Clase_directorio crear = new Clase_directorio();
 
-            crear.creadirectorio("ok");
+            crear.ruta = ruta2;
+
+            crear.creadirectorio(txt_nombre.Text, txt_materia.Text, txt_nivel.Text);
         }
     }
 }
