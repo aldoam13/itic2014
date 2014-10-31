@@ -33,9 +33,9 @@
             // 
             // cmd_creadirectorio
             // 
-            this.cmd_creadirectorio.Location = new System.Drawing.Point(12, 141);
+            this.cmd_creadirectorio.Location = new System.Drawing.Point(382, 12);
             this.cmd_creadirectorio.Name = "cmd_creadirectorio";
-            this.cmd_creadirectorio.Size = new System.Drawing.Size(295, 109);
+            this.cmd_creadirectorio.Size = new System.Drawing.Size(203, 48);
             this.cmd_creadirectorio.TabIndex = 0;
             this.cmd_creadirectorio.Text = "Crear directorio";
             this.cmd_creadirectorio.UseVisualStyleBackColor = true;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using System.Windows.Forms;
 
 
 namespace iati2014
@@ -18,9 +19,19 @@ namespace iati2014
             if (!File.Exists(ruta2))
             {
                 StreamWriter instancia = File.CreateText(ruta2);
+
+                instancia.Close();
             }
 
+            string documento = "Palabra: " + texto;
 
+            StreamWriter guardar = new StreamWriter(ruta2, true);
+
+            guardar.Write(documento);
+
+            guardar.Close();
+
+            //MessageBox.Show(documento);
             return true;
            }
 

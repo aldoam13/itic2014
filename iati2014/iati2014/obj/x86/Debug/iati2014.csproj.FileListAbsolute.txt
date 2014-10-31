@@ -5,3 +5,4 @@ C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.Proper
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.csproj.GenerateResource.Cache
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.exe
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.pdb
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.csprojResolveAssemblyReference.cache
