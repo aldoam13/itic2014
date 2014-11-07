@@ -36,8 +36,12 @@ namespace clase
             objReader.Close();
 
             foreach (string sOutput in arrText)
-                textBox1.AppendText(sOutput);
-               
+            {
+
+                string[] separadores={"NOMBRE:","MATERIA:","NIVEL:"};
+                string[] var = sOutput.Split(separadores,StringSplitOptions.RemoveEmptyEntries);
+              //  textBox1.AppendText(sOutput);
+            }
        
         }
     }

@@ -5,3 +5,4 @@ C:\Users\aldo\Documents\itic2014\clase\clase\bin\Debug\clase.exe
 C:\Users\aldo\Documents\itic2014\clase\clase\bin\Debug\clase.pdb
 C:\Users\aldo\Documents\itic2014\clase\clase\obj\x86\Debug\clase.exe
 C:\Users\aldo\Documents\itic2014\clase\clase\obj\x86\Debug\clase.pdb
+C:\Users\aldo\Documents\itic2014\clase\clase\obj\x86\Debug\clase.Form2.resources
