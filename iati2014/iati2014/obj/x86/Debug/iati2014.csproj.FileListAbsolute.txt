@@ -6,3 +6,5 @@ C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.csproj
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.exe
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.pdb
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.csprojResolveAssemblyReference.cache
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.Form2.resources
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.frm_Reader.resources

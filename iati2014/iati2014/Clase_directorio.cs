@@ -10,18 +10,17 @@ namespace iati2014
 {
     class Clase_directorio
     {
-        public string ruta { get; set; }
+        public string ruta { get; set; }  //<-- PROPIEDAD "RUTA", DE LA CLASE "CLASE_DIRECTORIO"
 
-       // private string ruta2 = @"C:\directorios\miarchivo.txt";
+       // private string ruta2 = @"C:\directorios\miarchivo.txt";  <-- VARIABLE TEMPORAL
 
 
         //RECIBE TRES PARAMETROS PARA GUARDAR
-        public bool creadirectorio(string nombre, string materia, string nivel)
+        public bool creadirectorio(string nombre, string materia, string nivel)// <-- METODO DE LA CLASE "CLASE_DIRECTORIO"
         {
-            if (!File.Exists(ruta))
+            if (!File.Exists(ruta))//EVALUA SI EXISTE LA RUTA SEÑADA O LA CREA NUEVA
             {
                 StreamWriter instancia = File.CreateText(ruta);
-
                 instancia.Close();
             }
 
@@ -33,7 +32,6 @@ namespace iati2014
 
             guardar.Close();
 
-            //MessageBox.Show(documento);
             return true;
            }
 

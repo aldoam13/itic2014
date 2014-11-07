@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace iati2014
+namespace clase
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace iati2014
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Reader());
+            Application.Run(new Form1());
         }
     }
 }
