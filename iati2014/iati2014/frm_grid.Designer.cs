@@ -40,6 +40,7 @@
             this.NOMBRE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MATERIA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NIVEL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmd_archivo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,9 +118,9 @@
             this.NOMBRE,
             this.MATERIA,
             this.NIVEL});
-            this.dataGridView1.Location = new System.Drawing.Point(20, 134);
+            this.dataGridView1.Location = new System.Drawing.Point(20, 167);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(776, 225);
+            this.dataGridView1.Size = new System.Drawing.Size(776, 192);
             this.dataGridView1.TabIndex = 17;
             // 
             // NOMBRE
@@ -137,11 +138,23 @@
             this.NIVEL.HeaderText = "NIVEL";
             this.NIVEL.Name = "NIVEL";
             // 
+            // cmd_archivo
+            // 
+            this.cmd_archivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmd_archivo.Location = new System.Drawing.Point(20, 128);
+            this.cmd_archivo.Name = "cmd_archivo";
+            this.cmd_archivo.Size = new System.Drawing.Size(171, 33);
+            this.cmd_archivo.TabIndex = 18;
+            this.cmd_archivo.Text = "Carga desde Archivo";
+            this.cmd_archivo.UseVisualStyleBackColor = true;
+            this.cmd_archivo.Click += new System.EventHandler(this.cmd_archivo_Click);
+            // 
             // frm_grid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(836, 395);
+            this.Controls.Add(this.cmd_archivo);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.cmd_limpiar);
             this.Controls.Add(this.cmd_agregar);
@@ -173,5 +186,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NOMBRE;
         private System.Windows.Forms.DataGridViewTextBoxColumn MATERIA;
         private System.Windows.Forms.DataGridViewTextBoxColumn NIVEL;
+        private System.Windows.Forms.Button cmd_archivo;
     }
 }
