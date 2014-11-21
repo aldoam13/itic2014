@@ -9,3 +9,6 @@ C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.csproj
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.Form2.resources
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.frm_Reader.resources
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.frm_grid.resources
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\bin\Debug\iati2014.exe.config
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.frmVerificarFactura.resources
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.frmPracticaFactura.resources

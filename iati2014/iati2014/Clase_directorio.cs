@@ -35,5 +35,23 @@ namespace iati2014
             return true;
            }
 
+
+        public bool guarda_factura(string _nombre, string _domicilio, string _rfcemisor, string _rfcreceptor, string _monto, string _uuid, string _estado)
+        {
+            if (!File.Exists(ruta))
+            {
+                StreamWriter archivo = File.CreateText(ruta);
+                archivo.Close();
+            }
+
+
+            string registros = "NOMBRE: " + _nombre + "DOMICILIO: " + _domicilio + "PROVEEDOR: " + _rfcemisor + "CLIENTE: " + _rfcreceptor + "MONTO: " + _monto + "UUID: " + _uuid+ "ESTADO: "+_estado;
+            StreamWriter guarda_factura = new StreamWriter(ruta,true);
+            guarda_factura.Write(registros);
+            guarda_factura.Close();
+
+            return true;
+        }
+
     }
 }

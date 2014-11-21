@@ -15,7 +15,7 @@ namespace iati2014
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_grid());
+            Application.Run(new frmPracticaFactura());
         }
     }
 }
