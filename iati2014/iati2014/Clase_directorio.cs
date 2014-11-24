@@ -4,12 +4,20 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Windows.Forms;
+using MySql.Data;
+using MySql.Data.MySqlClient;
+using System.Data;
+
+
+
 
 
 namespace iati2014
 {
     class Clase_directorio
     {
+        DataTable dtfacturas = new DataTable();
+
         public string ruta { get; set; }  //<-- PROPIEDAD "RUTA", DE LA CLASE "CLASE_DIRECTORIO"
 
        // private string ruta2 = @"C:\directorios\miarchivo.txt";  <-- VARIABLE TEMPORAL
@@ -51,6 +59,36 @@ namespace iati2014
             guarda_factura.Close();
 
             return true;
+        }
+
+
+        public DataTable MtdConsultarCFDI_Validados()
+        {
+            try
+            {
+
+                MySqlConnection conn = new MySqlConnection();
+                conn.ConnectionString = Properties.Settings.Default.conexion;
+                conn.Open();
+                MySqlCommand comand = conn.CreateCommand();
+
+                string createTable = "SELECT  id,rfcproveedor as PROVEEDOR,frccliente AS CLIENTE ,montofactura AS MONTO ,uuid AS UUDI,codigoestadofactura 'CODIGO FACTURA',estadofactura AS 'ESTADO FACTURA',fechacreacion AS FECHA  FROM gob_sis_cfdi.facturas order by id desc limit 0,50 ;";
+                comand = new MySqlCommand(createTable, conn);
+                MySqlDataAdapter sda = new MySqlDataAdapter();
+                DataTable dt = new DataTable();
+                sda.SelectCommand = comand;
+                sda.Fill(dt);
+                dtfacturas = dt;
+                conn.Close();
+            }
+            catch (MySqlException err)
+            {
+                string error = err.Message;
+
+
+            }
+
+            return dtfacturas;
         }
 
     }

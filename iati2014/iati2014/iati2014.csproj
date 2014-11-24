@@ -34,6 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.6.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -73,6 +74,12 @@
     <Compile Include="frmVerificarFactura.Designer.cs">
       <DependentUpon>frmVerificarFactura.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_bd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bd.Designer.cs">
+      <DependentUpon>frm_bd.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_grid.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmVerificarFactura.resx">
       <DependentUpon>frmVerificarFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bd.resx">
+      <DependentUpon>frm_bd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_grid.resx">
       <DependentUpon>frm_grid.cs</DependentUpon>

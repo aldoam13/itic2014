@@ -12,3 +12,4 @@ C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.frm_gr
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\bin\Debug\iati2014.exe.config
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.frmVerificarFactura.resources
 C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.frmPracticaFactura.resources
+C:\Users\aldo\Documents\itic2014\iati2014\iati2014\obj\x86\Debug\iati2014.frm_bd.resources
